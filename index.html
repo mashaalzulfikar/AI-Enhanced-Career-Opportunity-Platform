@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpsCorp - AI-powered Career Platform Prototype</title>
+</head>
+<body>
+    <header>
+        <h1>OpsCorp AI Prototype</h1>
+    </header>
+
+    <main>
+        <section id="listing-generator">
+            <h2>Project Listing Generator</h2>
+            <input type="text" id="proj-industry" placeholder="Industry (e.g., Fintech)" />
+            <textarea id="proj-goals" placeholder="Briefly describe project goals"></textarea>
+            <input type="text" id="proj-skills" placeholder="Skills needed" />
+            <button id="generate-project-desc">Generate Description</button>
+            <div id="project-desc-output"></div>
+        </section>
+
+        <section id="opportunity-matcher">
+            <h2>Opportunity Matcher</h2>
+            <input type="text" id="seeker-skills" placeholder="Enter your skills" />
+            <select id="seeker-experience">
+                <option value="entry">Entry Level</option>
+                <option value="mid">Mid Level</option>
+                <option value="senior">Senior Level</option>
+            </select>
+            <button id="find-opportunities">Find Opportunities</button>
+            <div id="opportunities-output"></div>
+        </section>
+
+        <section id="chatbot">
+            <h2>Chatbot Assistance</h2>
+            <div id="chat-messages"></div>
+            <input id="chat-input" type="text" placeholder="Type your message..." />
+            <button id="chat-send">Send</button>
+        </section>
+    </main>
+</body>
+</html>
