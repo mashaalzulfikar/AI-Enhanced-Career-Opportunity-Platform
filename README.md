@@ -1,4 +1,4 @@
-# AI-Enhanced-Career-Opportunity-Platform
+# AI-Enhanced-Career-Opportunity-Platform (Concept - Frontend)
 
 This repository contains the prototype for **OpsCorp**, an AI-powered platform designed to connect companies with talent.
 
